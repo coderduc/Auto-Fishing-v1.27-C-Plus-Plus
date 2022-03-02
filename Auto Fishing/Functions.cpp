@@ -162,10 +162,11 @@ void Functions::fix_rod(int iRod){
 	default:
 		break;
 	}
+	Sleep(1000);
 	adb_click(p.p_bPayFixRod[0], p.p_bPayFixRod[1]);
-	Sleep(500);
+	Sleep(1000);
 	adb_click(p.p_bAcceptFixRod[0], p.p_bAcceptFixRod[1]);
-	Sleep(500);
+	Sleep(1000);
 	adb_click(p.p_bClosePlayerBag[0], p.p_bClosePlayerBag[1]);
 }
 
