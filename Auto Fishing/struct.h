@@ -1,0 +1,20 @@
+struct click_point {
+	int p_bDropFishingRod[2] = { 762, 326 };
+	int p_bPullFishingRod[2] = { 843,428 };
+	int p_bPreserveFish[2] = { 636,419 };
+	int p_bPreserveTrash[2] = { 770, 453 };
+	int p_bPlayerBag[2] = { 925,290 };
+	int p_bUtilityBag[2] = { 763,36 };
+	int p_FishingRod1[2] = { 577,201 };
+	int p_FishingRod2[2] = { 730,196 };
+	int p_FishingRod3[2] = { 878,197 };
+	int p_FishingRod4[2] = { 581,384 };
+	int p_DisableFishingRod[2] = { 730,410 };
+	int p_bClosePlayerBag[2] = { 928,41 };
+	int p_bFixRod1[2] = { 580, 260 };
+	int p_bFixRod2[2] = { 728, 258 };
+	int p_bFixRod3[2] = { 878, 260 };
+	int p_bFixRod4[2] = { 581, 441 };
+	int p_bPayFixRod[2] = { 480,406 };
+	int p_bAcceptFixRod[2] = { 480,406 };
+};
